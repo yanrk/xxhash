@@ -1,0 +1,12 @@
+LIBRARY xxhash.dll
+EXPORTS
+    XXH32_createState   @1      NONAME;
+    XXH32_freeState     @2      NONAME;
+    XXH32_reset         @3      NONAME;
+    XXH32_update        @4      NONAME;
+    XXH32_digest        @5      NONAME;
+    XXH64_createState   @6      NONAME;
+    XXH64_freeState     @7      NONAME;
+    XXH64_reset         @8      NONAME;
+    XXH64_update        @9      NONAME;
+    XXH64_digest        @10     NONAME;
